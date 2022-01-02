@@ -10,4 +10,44 @@
 [![GitHub license](https://img.shields.io/github/license/sitemapxml/readme)](https://github.com/sitemapxml/readme/blob/master/LICENSE)
 
 # Repository Template
-> Note: You can add some important note here.
+> Note: You can add some important note here. You can also add a link to [Change log](./CHANGELOG.md) here, if you want.
+
+# About project
+
+Basic description of your project.
+
+## Installation
+
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+
+```bash
+pip install foobar
+```
+
+## Usage
+
+```python
+import foobar
+
+# returns 'words'
+foobar.pluralize('word')
+
+# returns 'geese'
+foobar.pluralize('goose')
+
+# returns 'phenomenon'
+foobar.singularize('phenomena')
+```
+
+## Contributing
+Pull requests are welcome. Please take a time to read our [Contributing Guidelines](./CONTRIBUTING.md) before submitting pull request.
+
+For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
+## Code of Conduct
+You should also add a link to [Code of Conduct](./CODE_OF_CONDUCT.md) so people can find it easyer, or, you can even add it to "Contributing" section.
+
+## License
+[MIT](LICENSE)
